@@ -3,4 +3,69 @@
 }
 body {
   font-family: Gilroy, Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  background: #F1F1F2
+}
+
+.app {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 33px 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.header .logo {
+  margin: 5px 45px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-image: url("./images/logos/Logo_black.svg");
+}
+
+.nav {
+  text-align: center;
+}
+.nav__item {
+  margin: 15px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+  transition: color 0.2s;
+}
+
+.nav__item:focus,
+.nav__item:hover {
+  color: #f7941e;
+}
+.nav__item:active {
+  color: #eb5a16;
+}
+
+.button {
+  color: #f7941e;
+  font-size: 18px;
+  line-height: 22px;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 9px 23px;
+  box-shadow: none;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.button:focus,
+.button:hover {
+  background-color: #F7941E;
+  color: #fff;
 }
