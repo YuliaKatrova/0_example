@@ -4,6 +4,7 @@
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'), url('Gilroyextrabold.woff2') format('woff2'), url('Gilroyextrabold.woff') format('woff'), url('Gilroyextrabold.ttf') format('truetype');
